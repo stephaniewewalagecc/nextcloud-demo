@@ -18,6 +18,7 @@ runcmd:
     -v /path/to/data:/data \
     --restart unless-stopped \
     linuxserver/nextcloud
+    touch /deploy-complete
 apt:
   sources:
     docker:
